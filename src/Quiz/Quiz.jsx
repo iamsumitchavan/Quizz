@@ -87,7 +87,7 @@ function Quiz({setRes}) {
 
              <div className="p-5 flex flex-col justify-center items-center gap-4">
                 <button type="button" onClick={handleChangeQuestion} value="next" 
-                 className="p-2 rounded-lg bg-black text-white w-36">
+                 className="p-2 hover:active:bg-gray-500 rounded-lg bg-black text-white w-36">
                {currentQuestion == QuizData.length-1 ?<Link to="/result">
                  submit
                 </Link>: "submit"}
